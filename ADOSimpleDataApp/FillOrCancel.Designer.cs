@@ -48,7 +48,6 @@
 			this.label1.Size = new System.Drawing.Size(54, 15);
 			this.label1.TabIndex = 0;
 			this.label1.Text = "Order ID:";
-			this.label1.Click += new System.EventHandler(this.label1_Click);
 			// 
 			// btnFindByOrderID
 			// 
@@ -58,6 +57,7 @@
 			this.btnFindByOrderID.TabIndex = 1;
 			this.btnFindByOrderID.Text = "Find Order";
 			this.btnFindByOrderID.UseVisualStyleBackColor = true;
+			this.btnFindByOrderID.Click += new System.EventHandler(this.btnFindByOrderID_Click);
 			// 
 			// txtOrderID
 			// 
@@ -65,7 +65,6 @@
 			this.txtOrderID.Name = "txtOrderID";
 			this.txtOrderID.Size = new System.Drawing.Size(140, 23);
 			this.txtOrderID.TabIndex = 2;
-			this.txtOrderID.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
 			// 
 			// label2
 			// 
@@ -75,7 +74,6 @@
 			this.label2.Size = new System.Drawing.Size(192, 15);
 			this.label2.TabIndex = 0;
 			this.label2.Text = "If filling an order, specify filled date";
-			this.label2.Click += new System.EventHandler(this.label1_Click);
 			// 
 			// dtpFillDate
 			// 
@@ -93,6 +91,7 @@
 			this.btnCancelOrder.TabIndex = 4;
 			this.btnCancelOrder.Text = "Cancel Order";
 			this.btnCancelOrder.UseVisualStyleBackColor = true;
+			this.btnCancelOrder.Click += new System.EventHandler(this.btnCancelOrder_Click);
 			// 
 			// btnFillOrder
 			// 
@@ -102,6 +101,7 @@
 			this.btnFillOrder.TabIndex = 4;
 			this.btnFillOrder.Text = "Fill Order";
 			this.btnFillOrder.UseVisualStyleBackColor = true;
+			this.btnFillOrder.Click += new System.EventHandler(this.btnFillOrder_Click);
 			// 
 			// btnFinishUpdates
 			// 
@@ -111,6 +111,7 @@
 			this.btnFinishUpdates.TabIndex = 4;
 			this.btnFinishUpdates.Text = "Finish";
 			this.btnFinishUpdates.UseVisualStyleBackColor = true;
+			this.btnFinishUpdates.Click += new System.EventHandler(this.btnFinishUpdates_Click);
 			// 
 			// dgvCustomerOrders
 			// 

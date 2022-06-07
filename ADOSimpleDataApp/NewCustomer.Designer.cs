@@ -107,6 +107,7 @@
 			this.btnAddFinish.TabIndex = 1;
 			this.btnAddFinish.Text = "Finish";
 			this.btnAddFinish.UseVisualStyleBackColor = true;
+			this.btnAddFinish.Click += new System.EventHandler(this.btnAddFinish_Click);
 			// 
 			// btnAddAnotherAccount
 			// 
@@ -116,6 +117,7 @@
 			this.btnAddAnotherAccount.TabIndex = 1;
 			this.btnAddAnotherAccount.Text = "Add Another Account";
 			this.btnAddAnotherAccount.UseVisualStyleBackColor = true;
+			this.btnAddAnotherAccount.Click += new System.EventHandler(this.btnAddAnotherAccount_Click);
 			// 
 			// btnCreateAccount
 			// 
@@ -125,6 +127,7 @@
 			this.btnCreateAccount.TabIndex = 1;
 			this.btnCreateAccount.Text = "Create Account";
 			this.btnCreateAccount.UseVisualStyleBackColor = true;
+			this.btnCreateAccount.Click += new System.EventHandler(this.btnCreateAccount_Click);
 			// 
 			// btnPlaceOrder
 			// 
@@ -134,6 +137,7 @@
 			this.btnPlaceOrder.TabIndex = 1;
 			this.btnPlaceOrder.Text = "Place Order";
 			this.btnPlaceOrder.UseVisualStyleBackColor = true;
+			this.btnPlaceOrder.Click += new System.EventHandler(this.btnPlaceOrder_Click);
 			// 
 			// txtCustomerID
 			// 
